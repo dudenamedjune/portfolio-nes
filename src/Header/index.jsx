@@ -2,15 +2,15 @@ import React from 'react'
 
 export const Header = () => {
     return (
-        <div className='grid grid-cols-3'>
-        {/* <header class="message -left"> */}
-            <div class="nes-balloon from-left is-dark col-span-3 col-start-1 md:col-end-2">
-                <p class='title text-center'>
+        <div className='grid grid-cols-11'>
+        {/* <header className="message -left"> */}
+            <div className="nes-balloon from-left is-dark col-span-11 col-start-1 md:col-end-5">
+                <p className='title text-center'>
                     June Lara
                 </p>
             </div>
-            <div class="nes-balloon from-right is-dark col-span-3 md:col-start-3 md:col-end-4">
-                <p class='title text-center break-all text-sm text-green-400'>
+            <div className="nes-balloon from-right is-dark col-span-11 md:col-start-7 md:col-end-12">
+                <p className='title text-center break-all text-sm text-green-400'>
                     @dudenamedjune
                 </p>
             </div>

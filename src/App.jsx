@@ -8,28 +8,28 @@ import { Footer } from './Footer'
 function App() {
   return (
     <div className="grid grid-rows-7">
-      <div class="nes-container is-dark row-span-1">
+      <div className="nes-container is-dark row-span-1">
         <Header />
       </div>
       <div className="nes-container row-span-1">
         <nav className="grid gird-cols-1 md:grid-cols-4 ">
           <Link to="/">
-            <button type="button" class="nes-btn w-11/12">
+            <button type="button" className="nes-btn w-11/12">
               Home
             </button>
           </Link>
           <Link to="work">
-            <button type="button" class="nes-btn is-error w-11/12">
+            <button type="button" className="nes-btn is-error w-11/12">
               Work 
             </button>
           </Link> 
           <Link to='about-me'>
-            <button type="button" class="nes-btn is-success w-11/12">
+            <button type="button" className="nes-btn is-success w-11/12">
               About Me
             </button>         
           </Link> 
           <Link to='blog'>
-            <button type="button" class="nes-btn is-warning w-11/12">
+            <button type="button" className="nes-btn is-warning w-11/12">
               Blog
             </button>         
           </Link> 

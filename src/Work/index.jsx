@@ -53,7 +53,7 @@ const experience = [
 ];
 export const Work = () => {
     return (
-        <div className="nes-container with-title">
+        <div className="nes-container with-title px-4 md:px-12">
             <p className="title">Work</p>
             {
                 experience.map(({
@@ -66,7 +66,7 @@ export const Work = () => {
                         <WorkCard 
                             {...rest} 
                             >
-                             <div className="lists ml-8 mt-2">
+                             <div className="lists ml-0 md:ml-8 mt-2">
                                 <ul className="nes-list is-circle break-words md:text-md text-xs">
                                     {details.map(detail =>
                                         <li>{detail}</li>   
@@ -78,12 +78,13 @@ export const Work = () => {
                     )
                 })
             }
-            {/* <div className="mt-4"></div>
+            <div className="mt-4"></div>
         <WorkCard
             company="Summary of Qualifications"
             >
+                <div className="scroll-mobile">
      <div class="nes-table-responsive">
-                <table class="nes-table is-dark">
+                <table class="nes-table is-dark text-xs">
                     <thead>
                     <tr className="text-green-400 text-center">
                         <th>Front End</th>
@@ -146,8 +147,9 @@ export const Work = () => {
                     </tbody>
                 </table>
             </div>
+            </div>
             </WorkCard>
-        */}
+       
         </div>
             
     )

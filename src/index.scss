@@ -20,3 +20,10 @@
         word-break: break-word;
     }
 }
+
+.scroll-mobile {
+    max-width: none;
+    @media only screen and (max-width: 767px) {
+        max-width: 250px; 
+      }  
+}

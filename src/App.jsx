@@ -6,6 +6,7 @@ import { Header } from './Header';
 import Home from './Home';
 import { Work } from './Work';
 import { Footer } from './Footer';
+import { AboutMe } from './AboutMe';
 function App() {
   return (
     <div className="grid grid-rows-7">
@@ -15,17 +16,17 @@ function App() {
       <div className="nes-container row-span-1 m-1 m-4">
         <nav className="grid gird-cols-1 md:grid-cols-3">
           <Link to="/">
-            <button type="button" className="nes-btn w-11/12">
+            <button type="button" className="nes-btn">
               Home
             </button>
           </Link>
           <Link to="work">
-            <button type="button" className="nes-btn is-error w-11/12">
+            <button type="button" className="nes-btn is-error">
               Work 
             </button>
           </Link> 
           <Link to='about-me'>
-            <button type="button" className="nes-btn is-success w-11/12">
+            <button type="button" className="nes-btn is-success ">
               About Me
             </button>         
           </Link> 
@@ -35,6 +36,7 @@ function App() {
       <Router>
         <Home path='/' />
         <Work path='/work' />
+        <AboutMe path='/about-me' />
       </Router>
       </div>
       <div className="row-span-1 row-start-7 row-end-7">

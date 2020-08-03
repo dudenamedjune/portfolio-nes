@@ -3,7 +3,6 @@ import React from 'react'
 export const Header = () => {
     return (
         <div className='grid grid-cols-11'>
-        {/* <header className="message -left"> */}
             <div className="nes-balloon from-left is-dark col-span-11 col-start-1 md:col-end-5">
                 <p className='title text-center'>
                     June Lara
@@ -14,7 +13,6 @@ export const Header = () => {
                     @dudenamedjune
                 </p>
             </div>
-      {/* </header> */}
         </div>
     );
 }

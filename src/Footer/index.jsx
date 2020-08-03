@@ -3,14 +3,15 @@ import './style.scss'
 export const Footer = () => {
     return (
       <>
-        <div className="ash-catching-pokemon grid grid-cols-7 overflow-x-hidden">
-          <div className="col-span-1">
+        <div className="ash-catching-pokemon grid grid-cols-7 overflow-x-hidden nes-pointer">
+          <div className="col-span-1 col-start-2">
             <i className="nes-ash ml-2"></i>
           </div>
-         <div className="col-span-4 pokeball__container z-10">
+
+         <div className="col-span-3 pokeball__container z-10">
             <i className="nes-pokeball"></i>
          </div>
-        
+
           <i className="nes-squirtle"></i>
         </div>
         <footer className='nes-container is-dark stick-footer'>

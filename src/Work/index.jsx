@@ -67,9 +67,9 @@ export const Work = () => {
                             {...rest} 
                             >
                              <div className="lists ml-8 mt-2">
-                                <ul className="nes-list is-circle">
-                                    {details.map(detail => 
-                                        <li>{detail}</li> 
+                                <ul className="nes-list is-circle break-words md:text-md text-xs">
+                                    {details.map(detail =>
+                                        <li>{detail}</li>   
                                      )}
                                 </ul>
                             </div>
@@ -78,7 +78,7 @@ export const Work = () => {
                     )
                 })
             }
-            <div className="mt-4"></div>
+            {/* <div className="mt-4"></div>
         <WorkCard
             company="Summary of Qualifications"
             >
@@ -147,7 +147,7 @@ export const Work = () => {
                 </table>
             </div>
             </WorkCard>
-       
+        */}
         </div>
             
     )

@@ -9,7 +9,7 @@ const Question = ({ question }) => {
 
 const Response = ({ response }) => {
     return <section className="message -right">
-    <div className="nes-balloon from-right is-dark ml-64">
+    <div className="nes-balloon from-right is-dark  ml-12 md:ml-64">
         <p>{ response }</p>
     </div>
 </section> 

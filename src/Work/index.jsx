@@ -78,6 +78,76 @@ export const Work = () => {
                     )
                 })
             }
+            <div className="mt-4"></div>
+        <WorkCard
+            company="Summary of Qualifications"
+            >
+     <div class="nes-table-responsive">
+                <table class="nes-table is-dark">
+                    <thead>
+                    <tr className="text-green-400 text-center">
+                        <th>Front End</th>
+                        <th>Back End</th>
+                        <th>API</th>
+                        <th>CLI</th>
+                        <th>In-between</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>React</td>
+                        <td>Node</td>
+                        <td>Express</td>
+                        <td>Linux</td>
+                        <td>Cognito (AWS Service)</td>
+                    </tr>
+                    <tr>
+                        <td>Redux</td>
+                        <td>Python</td>
+                        <td>API Gateway</td>
+                        <td>GIT</td>
+                        <td>Markdown</td>
+                    </tr>
+                    <tr>
+                        <td>Javascript es7 es6 es5</td>
+                        <td>DynamoDB</td>
+                        <td>Post Man</td>
+                        <td>Hub</td>
+                        <td>JWT</td>
+                    </tr>
+                    <tr>
+                        <td>Webpack</td>
+                        <td>Lambda</td>
+                        <td>AJAX</td>
+                        <td>VIM</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Code splitting</td>
+                        <td>MongoDB</td>
+                        <td>Promises, async await</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>CSS Sass</td>
+                        <td>SQL</td>
+                        <td>Mocha</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Enzyme, Jest</td>
+                        <td>S3, Heroku, EC2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            </WorkCard>
+       
         </div>
             
     )

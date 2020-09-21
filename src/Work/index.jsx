@@ -1,5 +1,5 @@
 import React from 'react'
-import { WorkCard } from './WorkCard';
+import { Card } from '../Card';
 const experience = [
     {
         company: "AIG" ,
@@ -63,7 +63,7 @@ export const Work = () => {
                     return (
                         <>
                         { index !== 0 && <div className="mt-4" /> }
-                        <WorkCard 
+                        <Card 
                             {...rest} 
                             >
                              <div className="lists ml-0 md:ml-8 mt-2">
@@ -73,13 +73,13 @@ export const Work = () => {
                                      )}
                                 </ul>
                             </div>
-                            </WorkCard>
+                            </Card>
                             </>
                     )
                 })
             }
             <div className="mt-4"></div>
-        <WorkCard
+        <Card
             company="Summary of Qualifications"
             >
                 <div className="scroll-mobile">
@@ -148,7 +148,7 @@ export const Work = () => {
                 </table>
             </div>
             </div>
-            </WorkCard>
+            </Card>
        
         </div>
             

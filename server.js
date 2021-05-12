@@ -15,8 +15,11 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(express.static("./build"));
 
 
+app.get("/apps-ads.txt", function(req, res) {
+  res.sendFile(__dirname + "/build/apps-adds.txt")
+})
 
-app.get("*", function(req, res) {
+app.get("/index", function(req, res) {
   res.sendFile(__dirname + "/build/index.html");
 });
 
